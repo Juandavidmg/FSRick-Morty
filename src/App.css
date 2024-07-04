@@ -1,0 +1,127 @@
+
+.App {
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #ffeb3b; 
+}
+
+.left, .right {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 3px solid #000; 
+  padding: 10px;
+  background-color: #f5f5f5; 
+  border-radius: 4px; 
+  box-shadow: 10px 10px 0 #000; 
+}
+
+.image-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.image-row {
+  display: flex;
+  justify-content: center;
+  margin: 10px 0;
+}
+
+.image-item-container {
+  margin: 0 10px;
+  text-align: center;
+}
+
+.details-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.tamlet {
+  cursor: pointer;
+  margin: 5px 0;
+  border: 2px solid #000; 
+  padding: 5px 10px;
+  background-color: #fff; 
+  border-radius: 5px; 
+  transition: background-color 0.3s;
+}
+
+.tamlet:hover {
+  background-color: #ffeb3b; 
+}
+
+.arriba, .abajo {
+  margin: 10px 0;
+}
+
+.info-container {
+  background-color: #fff;
+  border: 3px solid #000; 
+  padding: 20px;
+  border-radius: 10px; 
+  box-shadow: 10px 10px 0 #000; 
+}
+
+.tituloPrincipal {
+  font-family: 'Comic Sans MS', 'Arial', sans-serif; 
+  color: #172518;
+  text-shadow: 2px 2px 4px #000000;
+  border-style: inset;
+  display: inline-block;
+  background-color: #ff5722; 
+  border-radius: 10px; 
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 3px solid #000; 
+  box-shadow: 10px 10px 0 #000; 
+  width: 100%;
+}
+
+a {
+  color: #fff;
+  background-color: #ff5722; 
+  padding: 5px 10px;
+  font-size: 14px;
+  text-decoration: none;
+  border: 2px solid #000; 
+  border-radius: 5px;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+a:hover {
+  background-color: #ffeb3b; 
+  transform: scale(1.1); 
+}
+
+.activo {
+  color: #fff;
+  background-color: #d32f2f; 
+}
+
+.personaje-imagen {
+  width: 100px;
+  height: auto;
+  border-radius: 50%;
+  margin: 10px 0;
+  border: 3px solid #000; 
+  box-shadow: 5px 5px 0 #000;
+}
+
+.personaje-imagenp {
+  display: flex;
+  width: 300px;
+  height: auto;
+  border-radius: 50%;
+  margin: 10px 0;
+  border: 3px solid #000; 
+  box-shadow: 5px 5px 0 #000; 
+}
